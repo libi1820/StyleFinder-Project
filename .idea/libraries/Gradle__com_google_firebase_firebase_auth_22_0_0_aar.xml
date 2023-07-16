@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-auth:22.0.0@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../HW2/FashionApp/caches/transforms-3/5fa0327e8861b7a8321a9d67cfda6f7a/transformed/jetified-firebase-auth-22.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../HW2/FashionApp/caches/transforms-3/5fa0327e8861b7a8321a9d67cfda6f7a/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../HW2/FashionApp/caches/modules-2/files-2.1/com.google.firebase/firebase-auth/22.0.0/cc1cdd61103f73a811e777d3b12b56236bb46e76/firebase-auth-22.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

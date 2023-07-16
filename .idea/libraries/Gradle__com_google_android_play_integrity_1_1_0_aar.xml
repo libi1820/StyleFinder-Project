@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.play:integrity:1.1.0@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../HW2/FashionApp/caches/transforms-3/87245cca254c7e0b8449405918153941/transformed/jetified-integrity-1.1.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../HW2/FashionApp/caches/transforms-3/87245cca254c7e0b8449405918153941/transformed/jetified-integrity-1.1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/pinkfade"
+    android:gravity="top"
+    tools:context=".PrefActivity">
+
+    <TextView
+        android:id="@+id/textStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Choose Style:"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/textStyle">
+
+        <RadioButton
+            android:id="@+id/radioVintage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vintage" />
+
+        <RadioButton
+            android:id="@+id/radioModern"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modern" />
+
+        <RadioButton
+            android:id="@+id/radioFestival"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Festival" />
+
+        <RadioButton
+            android:id="@+id/radioGoth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Goth" />
+
+        <RadioButton
+            android:id="@+id/radioStreet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Street" />
+
+        <RadioButton
+            android:id="@+id/radioFormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Formal" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radioGroupStyle"
+        android:layout_marginTop="32dp"
+        android:text="Choose Price:"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/textPrice">
+
+        <RadioButton
+            android:id="@+id/radioPrice1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$" />
+
+        <RadioButton
+            android:id="@+id/radioPrice2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$$" />
+
+        <RadioButton
+            android:id="@+id/radioPrice3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$$$" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radioGroupPrice"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:backgroundTint="#000080"
+        android:textColor="#FFD700"
+        android:textAllCaps="false"
+        android:layout_marginTop="32dp"
+        android:text="Next" />
+
+    <Button
+        android:id="@+id/btnFav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:backgroundTint="#000080"
+        android:textColor="#FFD700"
+        android:textAllCaps="false"
+        android:layout_below="@id/btnNext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Go to favorites" />
+
+</RelativeLayout>

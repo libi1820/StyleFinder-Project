@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "941010882209",
+    "project_id": "stylefinder-2bf8c",
+    "storage_bucket": "stylefinder-2bf8c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941010882209:android:c3eb09c732556c2ec36ae0",
+        "android_client_info": {
+          "package_name": "com.labhall.stylefinder001"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941010882209-6etcu1lgkcnorjkd8gf6ckl2cv0ok3ch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXYoAG0pfjtPBF6W2e1ZnHcAnrKal9IqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941010882209-6etcu1lgkcnorjkd8gf6ckl2cv0ok3ch.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
